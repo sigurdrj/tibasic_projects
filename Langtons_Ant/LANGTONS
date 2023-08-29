@@ -1,0 +1,27 @@
+ClrDraw
+AxesOff
+
+"Direction
+"0=Up
+"1=Right
+"2=Down
+"3=Left
+0->D
+
+"A is X,B is Y
+96/2->A
+64/2->B
+
+While 1
+If pxl-Test(B,A
+Then
+prgmLANMOVEL
+Else
+prgmLANMOVER
+End
+
+Pxl-Change(B,A
+prgmAPPLYMOV
+
+End
+

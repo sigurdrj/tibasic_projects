@@ -1,0 +1,19 @@
+"Up
+If D=0
+Then
+B-1->B
+Else
+"Right
+If D=1
+Then
+A+1->A
+Else
+"Down
+If D=2
+Then
+B+1->B
+Else
+"Left
+A-1->A
+End
+
